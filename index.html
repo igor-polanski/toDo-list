@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <meta property="og:url" content="https://igor-polanski.github.io/toDolist/">
+    <meta property="og:title" content="To Do list">
+    <meta property="og:image" content="images/share.png">
+    <meta property="og:description" content="Need a to do list? Look no further.">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/tasks.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+    <main class="container">
+        <header>
+            <h1>To do list</h1>
+        </header>
+
+        <section class="section">
+            <h2 class="section__subHeader">Add a new task</h2>
+            <div class="section__body">
+                <form class="form js-form">
+                    <input class="form__input js-newTask" placeholder="Type your task here" required>
+                    <button class="form__button">Add a task</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section__subHeader">To do list</h2>
+            <div class="section__body">
+                <ul class="tasks js-tasks"></ul>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
