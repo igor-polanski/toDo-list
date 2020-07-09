@@ -4,7 +4,7 @@
     Vanilla JS - further practice.
     <br />
     <br />
-    <a href="hhttps://igor-polanski.github.io/toDo-list/" target="_blank" rel="noopener noreferrer">View Demo</a>
+    <a href="https://igor-polanski.github.io/toDo-list/" target="_blank" rel="noopener noreferrer">View Demo</a>
     ·
     <a href="https://igor-polanski.github.io/toDo-list/issues" target="_blank" rel="noopener noreferrer">Report Bug</a>
   </p>
