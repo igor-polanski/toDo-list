@@ -24,7 +24,7 @@
 
 ## About The Project
 
-[![toDo-list129a83ef788c0847.gif](https://s7.gifyu.com/images/toDo-list129a83ef788c0847.gif)](https://gifyu.com/image/QdvC)
+[![toDo-listcc542e0f3d855c7d.gif](https://s7.gifyu.com/images/toDo-listcc542e0f3d855c7d.gif)](https://gifyu.com/image/Q1IY)
 
 This project is a to do list with the options to add and remove previously written tasks. BEM is used for CSS along with grid and flex for practice. To do list is fully responsive. JS is also used in order to reinforce revised information.
 
