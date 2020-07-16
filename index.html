@@ -17,6 +17,7 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/container.css" rel="stylesheet">
     <link href="css/tasks.css" rel="stylesheet">
+    <link href="css/buttons.css" rel="stylesheet">
     <link href="css/section.css" rel="stylesheet">
     <link href="css/form.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -30,7 +31,9 @@
         </header>
 
         <section class="section">
-            <h2 class="section__subHeader">Add a new task</h2>
+            <div class="section__header">
+                <h2 class="section__title">Add a new task</h2>
+            </div>
             <div class="section__body">
                 <form class="form js-form">
                     <input class="form__input js-newTask" placeholder="Type your task here" required>
@@ -40,7 +43,10 @@
         </section>
 
         <section class="section">
-            <h2 class="section__subHeader">To do list</h2>
+            <div class="section__header">
+                <h2 class="section__title">To do list</h2>
+                <div class="buttons js-buttons"></div>
+            </div>
             <div class="section__body">
                 <ul class="tasks js-tasks"></ul>
             </div>
